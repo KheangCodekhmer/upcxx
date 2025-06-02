@@ -22,10 +22,6 @@ const Navigation = () => {
   const navItems = [
     { id: 'home', label: t('nav.home'), href: '#home' },
     { id: 'about', label: t('nav.about'), href: '#about' },
-    { id: 'projects', label: t('nav.projects'), href: '#projects' },
-    { id: 'experience', label: t('nav.experience'), href: '#experience' },
-    { id: 'blog', label: t('nav.blog'), href: '#blog' },
-    { id: 'contact', label: t('nav.contact'), href: '#contact' },
   ];
 
   const scrollToSection = (href: string) => {
@@ -44,14 +40,8 @@ const Navigation = () => {
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* Logo */}
+          {/* Empty space where logo was */}
           <div className="flex-shrink-0">
-            <button
-              onClick={() => scrollToSection('#home')}
-              className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent hover:scale-105 transition-transform"
-            >
-              AC
-            </button>
           </div>
 
           {/* Desktop Navigation */}
