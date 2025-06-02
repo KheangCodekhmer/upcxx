@@ -26,16 +26,6 @@ const HeroSection = () => {
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <div className="space-y-8 animate-fade-in">
-          {/* Profile Image */}
-          <div className="relative inline-block">
-            <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-blue-500 to-purple-600 p-1">
-              <div className="w-full h-full rounded-full bg-white dark:bg-gray-800 flex items-center justify-center">
-                <span className="text-4xl font-bold text-gray-700 dark:text-gray-300">VT</span>
-              </div>
-            </div>
-            <div className="absolute -top-2 -right-2 w-6 h-6 bg-green-500 rounded-full border-4 border-white dark:border-gray-800"></div>
-          </div>
-
           {/* Greeting and Name */}
           <div className="space-y-4">
             <p className="text-lg text-gray-600 dark:text-gray-400 font-medium">
