@@ -30,7 +30,7 @@ const HeroSection = () => {
           <div className="relative inline-block">
             <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-blue-500 to-purple-600 p-1">
               <div className="w-full h-full rounded-full bg-white dark:bg-gray-800 flex items-center justify-center">
-                <span className="text-4xl font-bold text-gray-700 dark:text-gray-300">AC</span>
+                <span className="text-4xl font-bold text-gray-700 dark:text-gray-300">VT</span>
               </div>
             </div>
             <div className="absolute -top-2 -right-2 w-6 h-6 bg-green-500 rounded-full border-4 border-white dark:border-gray-800"></div>
@@ -50,6 +50,16 @@ const HeroSection = () => {
               language === 'kh' ? 'font-battambang' : ''
             }`}>
               {t('hero.title')}
+            </p>
+          </div>
+
+          {/* Contact Info */}
+          <div className="space-y-2">
+            <p className="text-gray-600 dark:text-gray-400">
+              📍 {t('about.location')}
+            </p>
+            <p className="text-gray-600 dark:text-gray-400">
+              ✉️ {t('about.email')}
             </p>
           </div>
 
@@ -105,7 +115,7 @@ const HeroSection = () => {
               <Linkedin className="h-5 w-5" />
             </a>
             <a
-              href="mailto:contact@alexchen.dev"
+              href="mailto:ventithyaka@gmail.com"
               className="w-12 h-12 bg-white dark:bg-gray-800 rounded-lg shadow-lg flex items-center justify-center text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-300 hover:scale-110 hover:shadow-xl"
             >
               <Mail className="h-5 w-5" />

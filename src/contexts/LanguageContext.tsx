@@ -24,7 +24,7 @@ const translations = {
     
     // Hero Section
     'hero.greeting': 'Hello, I\'m',
-    'hero.name': 'Alex Chen',
+    'hero.name': 'Ven Tithyaka',
     'hero.title': 'Full-Stack Developer',
     'hero.tagline': 'Building the Future, Line by Line',
     'hero.subtitle': 'Passionate about creating elegant solutions to complex problems through clean, efficient code.',
@@ -34,10 +34,21 @@ const translations = {
     
     // About Section
     'about.title': 'About Me',
-    'about.intro': 'I\'m a passionate full-stack developer with 5+ years of experience in building scalable web applications and solving complex technical challenges.',
+    'about.intro': 'I\'m a passionate full-stack developer with experience in building scalable web applications and solving complex technical challenges.',
     'about.description': 'My journey in programming began with curiosity and has evolved into a deep passion for creating meaningful digital experiences. I specialize in modern web technologies and enjoy working on projects that make a real impact.',
     'about.skills': 'Technical Skills',
     'about.interests': 'When I\'m not coding, you\'ll find me exploring new technologies, contributing to open-source projects, or enjoying photography and hiking.',
+    'about.location': 'Phnom Penh, Chbar Aompov',
+    'about.email': 'ventithyaka@gmail.com',
+    
+    // Experience Section
+    'experience.title': 'Experience & Education',
+    'experience.education': 'Education',
+    'experience.work': 'Work Experience',
+    'experience.school': 'IT STEP ACADEMY',
+    'experience.degree': '2 Semesters',
+    'experience.duration': '2024-2025',
+    'experience.location': 'Phnom Penh',
     
     // Projects Section
     'projects.title': 'Featured Projects',
@@ -63,7 +74,7 @@ const translations = {
     'contact.form.placeholder.message': 'Tell me about your project...',
     
     // Footer
-    'footer.copyright': '© 2024 Alex Chen. All rights reserved.',
+    'footer.copyright': '© 2024 Ven Tithyaka. All rights reserved.',
     'footer.built': 'Built with React, TypeScript, and Tailwind CSS',
   },
   kh: {
@@ -77,7 +88,7 @@ const translations = {
     
     // Hero Section
     'hero.greeting': 'សួស្តី ខ្ញុំឈ្មោះ',
-    'hero.name': 'អាឡិច ឆេន',
+    'hero.name': 'វេន ទិត្យាការ',
     'hero.title': 'អ្នកអភិវឌ្ឍន៍ពេញលេញ',
     'hero.tagline': 'កសាងអនាគត តាមរយៈកូដ',
     'hero.subtitle': 'មានចំណង់ចំណូលចិត្តក្នុងការបង្កើតដំណោះស្រាយដ៏ឆើតឆាយសម្រាប់បញ្ហាស្មុគស្មាញតាមរយៈកូដស្អាត និងមានប្រសិទ្ធភាព។',
@@ -87,10 +98,21 @@ const translations = {
     
     // About Section
     'about.title': 'អំពីខ្ញុំ',
-    'about.intro': 'ខ្ញុំជាអ្នកអភិវឌ្ឍន៍ពេញលេញដែលមានចំណង់ចំណូលចិត្ត ជាមួយនឹងបទពិសោធន៍ជាង ៥ឆ្នាំក្នុងការសាងសង់កម្មវិធីគេហទំព័រដែលអាចពង្រីកបាន និងដោះស្រាយបញ្ហាបច្ចេកទេសស្មុគស្មាញ។',
+    'about.intro': 'ខ្ញុំជាអ្នកអភិវឌ្ឍន៍ពេញលេញដែលមានចំណង់ចំណូលចិត្ត ជាមួយនឹងបទពិសោធន៍ក្នុងការសាងសង់កម្មវិធីគេហទំព័រដែលអាចពង្រីកបាន និងដោះស្រាយបញ្ហាបច្ចេកទេសស្មុគស្មាញ។',
     'about.description': 'ដំណើរការរបស់ខ្ញុំក្នុងការសរសេរកម្មវិធីបានចាប់ផ្តើមពីការចង់ដឹងចង់ឃើញ ហើយបានវិវឌ្ឍទៅជាចំណង់ចំណូលចិត្តយ៉ាងជ្រាលជ្រៅសម្រាប់ការបង្កើតបទពិសោធន៍ឌីជីថលដែលមានអត្ថន័យ។ ខ្ញុំមានជំនាញពិសេសលើបច្ចេកវិទ្យាគេហទំព័រទំនើប ហើយចូលចិត្តធ្វើការលើគម្រោងដែលបង្កើតឥទ្ធិពលពិតប្រាកដ។',
     'about.skills': 'ជំនាញបច្ចេកទេស',
     'about.interests': 'នៅពេលដែលខ្ញុំមិនកំពុងសរសេរកូដ អ្នកនឹងឃើញខ្ញុំកំពុងស្វែងយល់បច្ចេកវិទ្យាថ្មី រួមចំណែកដល់គម្រោងកូដបើកចំហ ឬចូលចិត្តថតរូប និងដើរលេង។',
+    'about.location': 'ភ្នំពេញ ចំការអំពៅ',
+    'about.email': 'ventithyaka@gmail.com',
+    
+    // Experience Section
+    'experience.title': 'បទពិសោធន៍ និងការអប់រំ',
+    'experience.education': 'ការអប់រំ',
+    'experience.work': 'បទពិសោធន៍ការងារ',
+    'experience.school': 'IT STEP ACADEMY',
+    'experience.degree': '២ ឆមាស',
+    'experience.duration': '២០២៤-២០២៥',
+    'experience.location': 'ភ្នំពេញ',
     
     // Projects Section
     'projects.title': 'គម្រោងសំខាន់ៗ',
@@ -116,7 +138,7 @@ const translations = {
     'contact.form.placeholder.message': 'ប្រាប់ខ្ញុំអំពីគម្រោងរបស់អ្នក...',
     
     // Footer
-    'footer.copyright': '© ២០២៤ អាឡិច ឆេន។ រក្សាសិទ្ធិគ្រប់យ៉ាង។',
+    'footer.copyright': '© ២០២៤ វេន ទិត្យាការ។ រក្សាសិទ្ធិគ្រប់យ៉ាង។',
     'footer.built': 'សាងសង់ដោយ React, TypeScript, និង Tailwind CSS',
   }
 };
